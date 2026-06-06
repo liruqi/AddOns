@@ -1,11 +1,11 @@
-# Capybara Paradise https://capycraft.io/ AddOns
+# [Capybara Paradise](https://capycraft.io/) AddOns
 
-This repository manages World of Warcraft (Classic / Capybara Paradise https://capycraft.io/) addons. Some addons are managed as Git submodules to easily fetch updates from upstream repositories.
+This repository manages World of Warcraft (Classic / [Capybara Paradise](https://capycraft.io/)) addons. Some addons are managed as Git submodules to easily fetch updates from upstream repositories.
 
 ## Managed Addons (Submodules)
 
 - **pfQuest**: Quest helper addon (configured as a submodule from `https://github.com/The-Kludge-Bureau/pfQuest.git`).
-- **pfQuest-turtle**: Capybara Paradise https://capycraft.io/ specific data and database overwrites for pfQuest (configured as a submodule from `https://github.com/The-Kludge-Bureau/pfQuest-turtle.git`).
+- **pfQuest-turtle**: [Capybara Paradise](https://capycraft.io/) specific data and database overwrites for pfQuest (configured as a submodule from `https://github.com/The-Kludge-Bureau/pfQuest-turtle.git`).
 
 ---
 
