@@ -1,0 +1,6 @@
+[submodule "pfQuest"]
+	path = pfQuest
+	url = https://github.com/The-Kludge-Bureau/pfQuest.git
+[submodule "pfQuest-turtle"]
+	path = pfQuest-turtle
+	url = https://github.com/The-Kludge-Bureau/pfQuest-turtle.git

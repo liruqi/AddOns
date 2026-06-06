@@ -4,8 +4,8 @@ This repository manages World of Warcraft (Classic / TurtleWoW) addons. Some add
 
 ## Managed Addons (Submodules)
 
-- **pfQuest**: Quest helper addon (configured as a submodule from `git@github.com:The-Kludge-Bureau/pfQuest.git`).
-- **pfQuest-turtle**: TurtleWoW specific data and database overwrites for pfQuest (configured as a submodule from `git@github.com:The-Kludge-Bureau/pfQuest-turtle.git`).
+- **pfQuest**: Quest helper addon (configured as a submodule from `https://github.com/The-Kludge-Bureau/pfQuest.git`).
+- **pfQuest-turtle**: TurtleWoW specific data and database overwrites for pfQuest (configured as a submodule from `https://github.com/The-Kludge-Bureau/pfQuest-turtle.git`).
 
 ---
 
