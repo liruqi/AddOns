@@ -6,11 +6,11 @@
 
 ## 已管理的插件（子模块）
 
-- **pfQuest**：任务助手插件（配置为来自 `https://github.com/The-Kludge-Bureau/pfQuest.git` 的子模块）。
-- **pfQuest-turtle**：针对 pfQuest 的 Capybara Paradise 特定数据和数据库覆盖（配置为来自 `https://github.com/The-Kludge-Bureau/pfQuest-turtle.git` 的子模块）。
-- **Atlas**：地图浏览插件（配置为来自 `https://github.com/Otari98/Atlas.git` 的子模块）。
-- **AtlasLoot**：掉落查询数据库（配置为来自 `https://github.com/Otari98/AtlasLoot.git` 的子模块）。
-- **AtlasQuest**：Atlas 的任务信息查询插件（配置为来自 `https://github.com/Otari98/AtlasQuest.git` 的子模块）。
+- **pfQuest**：任务助手插件（配置为来自 [The-Kludge-Bureau/pfQuest](https://github.com/The-Kludge-Bureau/pfQuest.git) 的子模块）。
+- **pfQuest-turtle**：针对 pfQuest 的 Capybara Paradise 特定数据和数据库覆盖（配置为来自 [The-Kludge-Bureau/pfQuest-turtle](https://github.com/The-Kludge-Bureau/pfQuest-turtle.git) 的子模块）。
+- **Atlas**：地图浏览插件（配置为来自 [Otari98/Atlas](https://github.com/Otari98/Atlas.git) 的子模块）。
+- **AtlasLoot**：掉落查询数据库（配置为来自 [Otari98/AtlasLoot](https://github.com/Otari98/AtlasLoot.git) 的子模块）。
+- **AtlasQuest**：Atlas 的任务信息查询插件（配置为来自 [Otari98/AtlasQuest](https://github.com/Otari98/AtlasQuest.git) 的子模块）。
 
 ---
 

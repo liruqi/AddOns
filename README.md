@@ -6,11 +6,11 @@ This repository manages [Capybara Paradise](https://capycraft.io/) addons. Some 
 
 ## Managed Addons (Submodules)
 
-- **pfQuest**: Quest helper addon (configured as a submodule from `https://github.com/The-Kludge-Bureau/pfQuest.git`).
-- **pfQuest-turtle**: Capybara Paradise specific data and database overwrites for pfQuest (configured as a submodule from `https://github.com/The-Kludge-Bureau/pfQuest-turtle.git`).
-- **Atlas**: Map addon (configured as a submodule from `https://github.com/Otari98/Atlas.git`).
-- **AtlasLoot**: Loot tables database (configured as a submodule from `https://github.com/Otari98/AtlasLoot.git`).
-- **AtlasQuest**: Quest information addon for Atlas (configured as a submodule from `https://github.com/Otari98/AtlasQuest.git`).
+- **pfQuest**: Quest helper addon (configured as a submodule from [The-Kludge-Bureau/pfQuest](https://github.com/The-Kludge-Bureau/pfQuest.git)).
+- **pfQuest-turtle**: Capybara Paradise specific data and database overwrites for pfQuest (configured as a submodule from [The-Kludge-Bureau/pfQuest-turtle](https://github.com/The-Kludge-Bureau/pfQuest-turtle.git)).
+- **Atlas**: Map addon (configured as a submodule from [Otari98/Atlas](https://github.com/Otari98/Atlas.git)).
+- **AtlasLoot**: Loot tables database (configured as a submodule from [Otari98/AtlasLoot](https://github.com/Otari98/AtlasLoot.git)).
+- **AtlasQuest**: Quest information addon for Atlas (configured as a submodule from [Otari98/AtlasQuest](https://github.com/Otari98/AtlasQuest.git)).
 
 ---
 
