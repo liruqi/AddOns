@@ -1,5 +1,7 @@
 # Capybara Paradise AddOns
 
+[ English | [中文](README_zh.md) ]
+
 This repository manages [Capybara Paradise](https://capycraft.io/) addons. Some addons are managed as Git submodules to easily fetch updates from upstream repositories.
 
 ## Managed Addons (Submodules)
