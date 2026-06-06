@@ -4,3 +4,12 @@
 [submodule "pfQuest-turtle"]
 	path = pfQuest-turtle
 	url = https://github.com/The-Kludge-Bureau/pfQuest-turtle.git
+[submodule "Atlas"]
+	path = Atlas
+	url = https://github.com/Otari98/Atlas
+[submodule "AtlasLoot"]
+	path = AtlasLoot
+	url = https://github.com/Otari98/AtlasLoot
+[submodule "AtlasQuest"]
+	path = AtlasQuest
+	url = https://github.com/Otari98/AtlasQuest
