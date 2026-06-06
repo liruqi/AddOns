@@ -1,6 +1,6 @@
 # [Capybara Paradise](https://capycraft.io/) AddOns
 
-This repository manages World of Warcraft (Classic / [Capybara Paradise](https://capycraft.io/)) addons. Some addons are managed as Git submodules to easily fetch updates from upstream repositories.
+This repository manages [Capybara Paradise](https://capycraft.io/) addons. Some addons are managed as Git submodules to easily fetch updates from upstream repositories.
 
 ## Managed Addons (Submodules)
 
@@ -31,10 +31,8 @@ If you want to update a **specific** submodule only (e.g., just `pfQuest`):
 git submodule update --remote --merge pfQuest
 ```
 
-### 3. Committing Submodule Updates
-After updating the submodules, you should commit the updated submodule pointers in the main repository:
-```bash
-git add pfQuest pfQuest-turtle
-git commit -m "Update submodules to latest upstream"
-git push
-```
+## Contributing
+
+We welcome contributions! Please feel free to create a Pull Request (PR) to contribute.
+
+If you would like to contribute to a specific addon, please patch that specific addon's upstream repository, or fork a new repository on your own.
