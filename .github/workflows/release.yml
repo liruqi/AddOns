@@ -1,0 +1,89 @@
+name: Auto Release Addons
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '0 0 * * *' # Run daily at midnight UTC
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  check-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0 # Fetch all history and tags
+
+      - name: Update submodules to latest upstream
+        run: |
+          git submodule update --init --recursive
+          git submodule update --remote --recursive
+
+      - name: Commit and push upstream updates if any
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Check if there are any changes (like submodule updates)
+          if [ -n "$(git status --porcelain)" ]; then
+            git add .gitmodules 2>/dev/null || true
+            git add $(git submodule foreach --quiet 'echo $path')
+            git commit -m "chore: auto-update submodules to latest upstream"
+            git push origin master
+          else
+            echo "No upstream updates found."
+          fi
+
+      - name: Determine if release is needed
+        id: check_release
+        run: |
+          # Fetch all tags to ensure we have them
+          git fetch --tags --force
+          
+          LATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
+          echo "Latest tag: $LATEST_TAG"
+          
+          if [ -z "$LATEST_TAG" ]; then
+            echo "No previous release tag found. Creating a new release."
+            echo "NEED_RELEASE=true" >> $GITHUB_ENV
+          else
+            # Get list of files changed since the latest tag, excluding .github and READMEs
+            CHANGES=$(git diff --name-only "$LATEST_TAG" HEAD | grep -v -E "^(\.github|README\.md|README_zh\.md)" || true)
+            if [ -n "$CHANGES" ]; then
+              echo "Changes detected since last release:"
+              echo "$CHANGES"
+              echo "NEED_RELEASE=true" >> $GITHUB_ENV
+            else
+              echo "No functional changes detected since last release."
+              echo "NEED_RELEASE=false" >> $GITHUB_ENV
+            fi
+          fi
+
+      - name: Create Release Package
+        if: env.NEED_RELEASE == 'true'
+        run: |
+          # Generate a timestamp-based tag name
+          TAG_NAME="v$(date +'%Y.%m.%d-%H%M%S')"
+          echo "TAG_NAME=$TAG_NAME" >> $GITHUB_ENV
+          
+          # Package the submodules
+          SUBMODULES=$(git submodule foreach --quiet 'echo $path')
+          zip -r AddOns.zip $SUBMODULES
+
+      - name: Create GitHub Release
+        if: env.NEED_RELEASE == 'true'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.TAG_NAME }}
+          name: Release ${{ env.TAG_NAME }}
+          body: "Automated release containing updated addons."
+          files: AddOns.zip
+          draft: false
+          prerelease: false
