@@ -14,6 +14,7 @@
 - **Automatonex**：本项目使用的一组自动化模块（配置为来自 [liruqi/Automatonex](https://github.com/liruqi/Automatonex.git) 的子模块）。
 - **Cat**：职业自动化和战斗辅助模块（配置为来自 [liruqi/Cat](https://github.com/liruqi/Cat.git) 的子模块）。
 - **Meeting**：集合石小组和团队辅助插件（配置为来自 [liruqi/Meeting](https://github.com/liruqi/Meeting.git) 的子模块）。
+- **MinimapButtonBag**：小地图按钮整理插件（配置为来自 [McPewPew/MinimapButtonBag](https://github.com/McPewPew/MinimapButtonBag.git) 的子模块）。
 
 ---
 

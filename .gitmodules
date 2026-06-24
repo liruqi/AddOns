@@ -22,3 +22,6 @@
 [submodule "Meeting"]
 	path = Meeting
 	url = https://github.com/liruqi/Meeting.git
+[submodule "MinimapButtonBag"]
+	path = MinimapButtonBag
+	url = https://github.com/McPewPew/MinimapButtonBag.git
