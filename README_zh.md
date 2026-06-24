@@ -12,6 +12,8 @@
 - **AtlasLoot**：掉落数据库（配置为来自 [Otari98/AtlasLoot](https://github.com/Otari98/AtlasLoot.git) 的子模块）。
 - **AtlasQuest**：Atlas 的任务信息插件（配置为来自 [Otari98/AtlasQuest](https://github.com/Otari98/AtlasQuest.git) 的子模块）。
 
+- **Automatonex**：本项目使用的一组自动化模块（配置为来自 [liruqi/Automatonex](https://github.com/liruqi/Automatonex.git) 的子模块）。
+
 ---
 
 ## 下载插件

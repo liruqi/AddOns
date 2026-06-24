@@ -13,3 +13,6 @@
 [submodule "AtlasQuest"]
 	path = AtlasQuest
 	url = https://github.com/Otari98/AtlasQuest
+[submodule "Automatonex"]
+	path = Automatonex
+	url = https://github.com/liruqi/Automatonex.git
