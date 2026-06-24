@@ -13,6 +13,7 @@ This repository manages [Capybara Paradise](https://capycraft.io/) addons. Some 
 - **AtlasQuest**: Quest information addon for Atlas (configured as a submodule from [Otari98/AtlasQuest](https://github.com/Otari98/AtlasQuest.git)).
 - **Automatonex**: A collection of automation modules used by the project (configured as a submodule from [liruqi/Automatonex](https://github.com/liruqi/Automatonex.git)).
 - **Cat**: Class automation and combat helper modules (configured as a submodule from [liruqi/Cat](https://github.com/liruqi/Cat.git)).
+- **Meeting**: Group and raid helper addon for meeting stones (configured as a submodule from [liruqi/Meeting](https://github.com/liruqi/Meeting.git)).
 
 ---
 

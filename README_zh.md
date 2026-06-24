@@ -13,6 +13,7 @@
 - **AtlasQuest**：Atlas 的任务信息插件（配置为来自 [Otari98/AtlasQuest](https://github.com/Otari98/AtlasQuest.git) 的子模块）。
 - **Automatonex**：本项目使用的一组自动化模块（配置为来自 [liruqi/Automatonex](https://github.com/liruqi/Automatonex.git) 的子模块）。
 - **Cat**：职业自动化和战斗辅助模块（配置为来自 [liruqi/Cat](https://github.com/liruqi/Cat.git) 的子模块）。
+- **Meeting**：集合石小组和团队辅助插件（配置为来自 [liruqi/Meeting](https://github.com/liruqi/Meeting.git) 的子模块）。
 
 ---
 

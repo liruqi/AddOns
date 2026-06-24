@@ -19,3 +19,6 @@
 [submodule "Cat"]
 	path = Cat
 	url = https://github.com/liruqi/Cat.git
+[submodule "Meeting"]
+	path = Meeting
+	url = https://github.com/liruqi/Meeting.git
