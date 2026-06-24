@@ -16,3 +16,6 @@
 [submodule "Automatonex"]
 	path = Automatonex
 	url = https://github.com/liruqi/Automatonex.git
+[submodule "Cat"]
+	path = Cat
+	url = https://github.com/liruqi/Cat.git

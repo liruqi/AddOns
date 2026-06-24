@@ -11,8 +11,8 @@ This repository manages [Capybara Paradise](https://capycraft.io/) addons. Some 
 - **Atlas**: Map addon (configured as a submodule from [Otari98/Atlas](https://github.com/Otari98/Atlas.git)).
 - **AtlasLoot**: Loot tables database (configured as a submodule from [Otari98/AtlasLoot](https://github.com/Otari98/AtlasLoot.git)).
 - **AtlasQuest**: Quest information addon for Atlas (configured as a submodule from [Otari98/AtlasQuest](https://github.com/Otari98/AtlasQuest.git)).
-
 - **Automatonex**: A collection of automation modules used by the project (configured as a submodule from [liruqi/Automatonex](https://github.com/liruqi/Automatonex.git)).
+- **Cat**: Class automation and combat helper modules (configured as a submodule from [liruqi/Cat](https://github.com/liruqi/Cat.git)).
 
 ---
 
