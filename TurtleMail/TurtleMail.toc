@@ -1,0 +1,12 @@
+﻿
+## Interface: 11200
+## Title: |cffabd473Turtle|cffffffffMail
+## Title-zhCN:|CFF00FF00[|r|CFFDD66DD界面|r|CFF00FF00] 乌龟服邮箱增强
+## Author: shirsig/sica 游侠汉化修改
+## Version: 1.4.5
+## Notes: Mailbox enhancement
+## Notes-zhCN: 日志记录默认已禁用。使用/tm log命令启用。
+## SavedVariables: TurtleMail_AutoCompleteNames
+## SavedVariablesPerCharacter: TurtleMail_To TurtleMail_Point TurtleMail_Log S_MailTo_List TurtleMail_AutoCOD
+
+TurtleMail.xml
