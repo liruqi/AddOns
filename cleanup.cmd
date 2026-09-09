@@ -13,6 +13,7 @@ for /d %%D in ("%ADDONS%Hunter*") do (
 
 call :DeleteDirectory "Accountant"
 call :DeleteDirectory "MapTarget"
+call :DeleteDirectory "MinimapButtonBag"
 
 exit /b %FAILED%
 
