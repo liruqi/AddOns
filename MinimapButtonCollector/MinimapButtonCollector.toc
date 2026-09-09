@@ -1,0 +1,8 @@
+## Interface: 11200
+## Title: 小地图按钮收藏器
+## Notes: 自动收集并整理小地图按钮的独立插件，/mbc 打开设置面板
+## Title-zhCN:|CFF33AAFF[辅助]|R小地图按钮收藏器
+## Notes-zhCN: 自动收集并整理小地图按钮的独立插件，/mbc 打开设置面板
+## Author: Orion，游侠修改
+## SavedVariables: MinimapButtonCollectorDB
+MinimapButtonCollector.lua
