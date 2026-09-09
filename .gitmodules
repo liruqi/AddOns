@@ -25,3 +25,9 @@
 [submodule "MinimapButtonBag"]
 	path = MinimapButtonBag
 	url = https://github.com/McPewPew/MinimapButtonBag.git
+[submodule "TradeSkillsData"]
+	path = TradeSkillsData
+	url = https://github.com/liruqi/TradeSkillsData.git
+[submodule "TradeSkillsData-turtle"]
+	path = TradeSkillsData-turtle
+	url = https://github.com/liruqi/TradeSkillsData-turtle.git
