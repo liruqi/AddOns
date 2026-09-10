@@ -6,6 +6,9 @@ set "FAILED=0"
 set "ADDONS=%~dp0"
 
 call :DeleteDirectory "PallyPower"
+call :DeleteDirectory "CatPotion"
+call :DeleteDirectory "OneRing"
+call :DeleteDirectory "S_Fish"
 
 for /d %%D in ("%ADDONS%Hunter*") do (
     call :DeleteDirectory "%%~nxD"
