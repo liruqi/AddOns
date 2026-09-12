@@ -9,6 +9,12 @@ call :DeleteDirectory "PallyPower"
 call :DeleteDirectory "CatPotion"
 call :DeleteDirectory "OneRing"
 call :DeleteDirectory "S_Fish"
+call :DeleteDirectory "WebDKP"
+call :DeleteDirectory "MasterLootByClass"
+call :DeleteDirectory "crazytarget"
+call :DeleteDirectory "SpiritSenseRec"
+call :DeleteDirectory "EzPoison"
+call :DeleteDirectory "InstanceTimers"
 
 for /d %%D in ("%ADDONS%Hunter*") do (
     call :DeleteDirectory "%%~nxD"
